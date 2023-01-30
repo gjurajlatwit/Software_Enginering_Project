@@ -1,9 +1,9 @@
 # Software_Enginering_Project
 Software Engineering Class Project
 
-#SnapScience :pencil:
+# SnapScience :pencil:
 
-##Team Members:
+## Team Members:
 Kevin Diaz
 Luis Gjuraj
 Max Brinkley
