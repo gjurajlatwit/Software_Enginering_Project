@@ -4,7 +4,9 @@ Software Engineering Class Project
 # SnapScience :pencil:
 
 ## Team Members:
-Kevin Diaz
-Luis Gjuraj
+Kevin Diaz  
+
+Luis Gjuraj 
+
 Max Brinkley
 
