@@ -17,8 +17,16 @@ class _HomeState extends State<Home> {
             children: <Widget>[
               const Text("Home Page"),
               TextButton(
-                onPressed: () {},
-                child: const Text("Next page"),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/resources');
+                },
+                child: const Text("Resource page"),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/solution');
+                }, 
+                child: const Text('Solution page')
               )
             ]),
         ),

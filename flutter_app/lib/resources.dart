@@ -13,6 +13,13 @@ class Resources extends StatefulWidget {
 class _ResourcesState extends State<Resources> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.grey[200],
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Resources'),
+        elevation: 0,
+      ),
+    );
   }
 }

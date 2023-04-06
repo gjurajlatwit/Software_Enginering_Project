@@ -14,6 +14,13 @@ class Solution extends StatefulWidget {
 class _SolutionState extends State<Solution> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.grey[200],
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Solution'),
+        elevation: 0,
+      ),
+    );
   }
 }
