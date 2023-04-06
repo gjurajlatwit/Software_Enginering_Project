@@ -33,7 +33,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: _title,
       home: Scaffold(
-        appBar: AppBar(title: const Text(_title)),
+        appBar: AppBar(
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back, color: Colors.white),
+            onPressed: () => Navigator.of(context).pop(),
+          ),
+          backgroundColor: Colors.blue[900],
+          title: const Text('Resources'),
+          elevation: 0,
+        ),
         body: const MyStatefulWidget(),
       ),
     );
