@@ -27,6 +27,12 @@ class _HomeState extends State<Home> {
                   Navigator.pushNamed(context, '/solution');
                 }, 
                 child: const Text('Solution page')
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/camera');
+                }, 
+                child: const Text('Camera Page')
               )
             ]),
         ),
