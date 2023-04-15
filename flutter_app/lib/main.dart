@@ -13,6 +13,6 @@ void main() => runApp(MaterialApp(
         '/home': (context) => Home(),
         '/resources': (context) => MyApp(),
         '/solution': (context) => Solution(),
-        '/camera':(context) => Camera(),
+        '/camera': (context) => Camera(),
       },
     ));
