@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/resources.dart';
 
 class CameraPage extends StatefulWidget {
   final List<CameraDescription>? cameras;
@@ -65,13 +66,29 @@ class _CameraPageState extends State<CameraPage> {
             child: const Text('Capture Image'),
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/solution');
+            },
+            child: const Text('Solution'),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: ElevatedButton(
+            onPressed: () => Navigator.pushNamed(context, '/resources'),
+            child: const Text('Resources'),
+          ),
+        ),
         if (pictureFile != null)
           Image.network(
             pictureFile!.path,
             height: 200,
           )
-          //Android/iOS
-          // Image.file(File(pictureFile!.path)))
+        //Android/iOS
+        // Image.file(File(pictureFile!.path)))
       ],
     );
   }
