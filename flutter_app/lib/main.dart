@@ -7,7 +7,7 @@ import 'package:flutter_app/solution.dart';
 import 'package:camera/camera.dart';
 
 void main() => runApp(MaterialApp(
-      initialRoute: '/home',
+      initialRoute: '/camera',
       routes: {
         '/': (context) => Loading(),
         '/home': (context) => Home(),
