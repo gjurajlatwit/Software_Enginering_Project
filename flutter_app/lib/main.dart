@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/camera.dart';
+import 'package:flutter_app/history.dart';
 import 'package:flutter_app/loading.dart';
 import 'package:flutter_app/home.dart';
 import 'package:flutter_app/resources.dart';
@@ -10,7 +11,7 @@ void main() => runApp(MaterialApp(
       initialRoute: '/camera',
       routes: {
         '/': (context) => Loading(),
-        '/home': (context) => Home(),
+        '/history': (context) => History(),
         '/resources': (context) => MyApp(),
         '/solution': (context) => Solution(),
         '/camera': (context) => Camera(),

@@ -82,6 +82,13 @@ class _CameraPageState extends State<CameraPage> {
             child: const Text('Resources'),
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: ElevatedButton(
+            onPressed: () => Navigator.pushNamed(context, '/history'),
+            child: const Text('Problem History'),
+          ),
+        ),
         if (pictureFile != null)
           Image.network(
             pictureFile!.path,
