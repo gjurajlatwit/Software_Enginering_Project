@@ -35,11 +35,6 @@ class _CameraState extends State<Camera> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Camera'),
-        elevation: 0,
-      ),
       body: Center(
         child: const CircularProgressIndicator(),
       ),

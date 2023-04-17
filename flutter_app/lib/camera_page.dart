@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/resources.dart';
+import 'package:http/http.dart' as http;
 
 class CameraPage extends StatefulWidget {
   final List<CameraDescription>? cameras;
@@ -13,6 +14,8 @@ class CameraPage extends StatefulWidget {
 class _CameraPageState extends State<CameraPage> {
   late CameraController controller;
   XFile? pictureFile;
+
+  Future pixcall() async {}
 
   @override
   void initState() {
